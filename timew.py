@@ -20,7 +20,7 @@
 def timeC():
     
     time = input("Enter  Time in this format H:M am/pm")
-    # example 12:00 
+    
     if time[:2]=="12" and time[-2:] == "am":
         timer = "00" + time[2:-2]
     elif time[:2] == "12" and time[-2:] == "pm":
