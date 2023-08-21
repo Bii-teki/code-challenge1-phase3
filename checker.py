@@ -19,7 +19,7 @@ def check():
     for item in result:
         if item> 0:
             counter +=1
-    print(counter >=2) 
+    print(counter ==2) 
 
     # print(all(number>0 for number in result)) 
     # print(any(number>0 for number in result))  
